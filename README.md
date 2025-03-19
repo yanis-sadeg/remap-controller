@@ -37,7 +37,7 @@ sudo systemctl stop makima.service
 sudo systemctl disable makima.service
 sudo rm -rf ~/makima ~/.config/makima /etc/systemd/system/makima.service
 ```
-## Installation Steps
+## What install_makima_for_handled.sh does
 1. Check User Privileges and Linux Distribution
     - Ensures the script is executed with root privileges.
     - Detects the Linux distribution to install the required dependencies accordingly.
